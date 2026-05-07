@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marco Naredo | Portfolio</title>
+
+  <title>Marco Naredo | Junior Web & Software Developer</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Marco Naredo</h1>
-  <p>Junior Web & Software Developer</p>
-  <p>Portfolio coming soon.</p>
+
+  <header class="navbar">
+    <div class="logo">MN</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="tag">Available for Junior Developer Roles</p>
+
+        <h1>Hi, I'm Marco Naredo.</h1>
+        <h2>Junior Web & Software Developer</h2>
+
+        <p class="hero-text">
+          I recently completed my Gaming Development Diploma at NBCC and I’m focused on building practical,
+          clean, and user-friendly web and software solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="quick-info">
+          <div>
+            <span>Location</span>
+            <strong>Moncton, NB</strong>
+          </div>
+          <div>
+            <span>Focus</span>
+            <strong>Web & Software</strong>
+          </div>
+          <div>
+            <span>Open to</span>
+            <strong>Remote / On-site</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m a Junior Web and Software Developer with a background in business operations, logistics,
+        administration, and digital marketing. My previous experience managing teams, reports,
+        inventory, and operations helps me understand how software is used in real workplaces.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Space Miner</h3>
+          <p>
+            A 2D sci-fi platformer built with C++ and SFML, featuring low-gravity movement,
+            laser shooting mechanics, enemies, mineral collection, and a win condition.
+          </p>
+          <span>C++</span>
+          <span>SFML</span>
+          <span>GitHub</span>
+        </article>
+
+        <article class="card">
+          <h3>Beauty Products Website</h3>
+          <p>
+            WordPress and WooCommerce website focused on product catalog structure,
+            mobile usability, navigation, forms, and basic SEO configuration.
+          </p>
+          <span>WordPress</span>
+          <span>WooCommerce</span>
+          <span>SEO</span>
+        </article>
+
+        <article class="card">
+          <h3>Restaurant Management App</h3>
+          <p>
+            Full-stack web application using Java, Spring Boot, Thymeleaf, MySQL,
+            and role-based access for customer, manager, staff, and admin workflows.
+          </p>
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>MySQL</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, Responsive Design, WordPress</p>
+        </div>
+
+        <div>
+          <h3>Backend / Programming</h3>
+          <p>Java, SQL, C++, Spring Boot basics</p>
+        </div>
+
+        <div>
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code, IntelliJ, MySQL, SAP basic</p>
+        </div>
+
+        <div>
+          <h3>Business Skills</h3>
+          <p>Reporting, KPI tracking, logistics coordination, documentation, team leadership</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>
+        I’m currently open to junior developer, web developer, QA, technical support,
+        and IT-related opportunities.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:marco.naredo.14@gmail.com">Email Me</a>
+        <a href="https://www.linkedin.com/in/marconaredo" target="_blank">LinkedIn</a>
+        <a href="https://github.com/MarcoNaredo14" target="_blank">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Marco Naredo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
