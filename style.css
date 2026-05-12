@@ -268,6 +268,28 @@ h1 {
   color: #92400e;
 }
 
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.project-links a {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #0f766e;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.project-links a:hover {
+  transform: translateY(-2px);
+  background: #115e59;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -380,6 +402,15 @@ body.dark-mode .theme-toggle {
 
 body.dark-mode .theme-toggle:hover {
   background: #134e4a;
+}
+
+body.dark-mode .project-links a {
+  background: #14b8a6;
+  color: #020617;
+}
+
+body.dark-mode .project-links a:hover {
+  background: #5eead4;
 }
 
 body.dark-mode .contact {
