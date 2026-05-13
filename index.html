@@ -77,15 +77,6 @@
         <article class="card">
   <h3>Space Miner</h3>
 
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/X4gTz3olX1w"
-      title="Space Miner Gameplay Demo"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  </div>
-
   <p>
     A 2D sci-fi platformer built with C++ and SFML, featuring low-gravity movement,
     laser shooting mechanics, enemies, mineral collection, and a win condition.
@@ -96,6 +87,7 @@
   <span>GitHub</span>
 
   <div class="project-links">
+    <button class="project-button" id="open-space-miner-modal">Watch Demo</button>
     <a href="https://github.com/MarcoNaredo14/LabOfLegends" target="_blank">View Code</a>
   </div>
 </article>
@@ -179,6 +171,42 @@
     <p>© 2026 Marco Naredo. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <div class="modal-overlay" id="space-miner-modal">
+  <div class="modal-content">
+    <button class="modal-close" id="close-space-miner-modal" aria-label="Close demo video">
+      ×
+    </button>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/X4gTz3olX1w"
+        title="Space Miner Gameplay Demo"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <h2>Space Miner</h2>
+    <p class="modal-category">Game Development Project</p>
+
+    <p>
+      Space Miner is a 2D sci-fi platformer developed in C++ using SFML. The game includes
+      low-gravity movement, laser shooting mechanics, enemy interactions, mineral collection,
+      and a mission-based win condition.
+    </p>
+
+    <div class="modal-tags">
+      <span>C++</span>
+      <span>SFML</span>
+      <span>Game Dev</span>
+    </div>
+
+    <div class="project-links">
+      <a href="https://github.com/MarcoNaredo14/LabOfLegends" target="_blank">View Code</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -22,3 +22,22 @@ themeToggle.addEventListener("click", () => {
     localStorage.setItem("theme", "light");
   }
 });
+
+// Space Miner modal
+const openSpaceMinerModal = document.getElementById("open-space-miner-modal");
+const closeSpaceMinerModal = document.getElementById("close-space-miner-modal");
+const spaceMinerModal = document.getElementById("space-miner-modal");
+
+openSpaceMinerModal.addEventListener("click", () => {
+  spaceMinerModal.classList.add("active");
+});
+
+closeSpaceMinerModal.addEventListener("click", () => {
+  spaceMinerModal.classList.remove("active");
+});
+
+spaceMinerModal.addEventListener("click", (event) => {
+  if (event.target === spaceMinerModal) {
+    spaceMinerModal.classList.remove("active");
+  }
+});
